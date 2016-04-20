@@ -13,7 +13,9 @@ class BlockDemo {
     if(i != 0) {
       System.out.println("i does not equal zero");
       d = j / i;
-      System.out.print("j / i is " + d + " ");
+      System.out.print("j / i is " + d);
+      System.out.println(); // prints a blank line
+
     }
   }
 }
